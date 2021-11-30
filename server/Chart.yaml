@@ -5,6 +5,11 @@ name: server
 version: "v1"
 icon: https://avatars3.githubusercontent.com/u/12783832?s=200&v=4
 home: https://www.aquasec.com/
+dependencies:
+  - name: gateway
+    version: "6.5.2"
+    repository: "https://helm.aquasec.com"
+    condition: gateway.enabled
 maintainers:
 - name: Aqua Security, Inc.
   email: support@aquasec.com
