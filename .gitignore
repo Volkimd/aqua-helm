@@ -1,5 +1,2 @@
 .idea/
 .vscode/
-server/requirements.lock
-server/charts
-server/subcharts
