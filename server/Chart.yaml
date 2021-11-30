@@ -8,7 +8,7 @@ home: https://www.aquasec.com/
 dependencies:
   - name: gateway
     version: "6.5.2"
-    repository: "https://helm.aquasec.com"
+    repository: "file://../gateway"
     condition: gateway.enabled
 maintainers:
 - name: Aqua Security, Inc.
