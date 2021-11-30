@@ -8,3 +8,8 @@ home: https://www.aquasec.com/
 maintainers:
 - name: Aqua Security, Inc.
   email: support@aquasec.com
+dependencies:
+- name: gateway
+  version: "6.5.2"
+  repository: "file://../gateway/"
+  condition: gateway.enabled
